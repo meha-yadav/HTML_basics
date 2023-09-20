@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 14.09.2023</title>
+</head>
+<body>
+    <h1 align="center">WELCOME TO M's HOTEL</h1>
+    <hr>
+    <fieldset>
+        <legend><b>Personal Information</b></legend>
+        <br>
+        <label for="firstname" align="center">First Name: </label>
+        <input type="text" id="firstname" name="firstname"><br>
+        <br>
+        <label for="lastname" align="center">Last Name: </label>
+        <input type="text" id="lastname" name="lastname"><br>
+        <br>
+        <label for="contact" align="center">Contact Number: </label>
+        <input type="type" size="10" id="contact" name="contact"><br>
+        <br>
+        <label for="mail">Email: </label>
+        <input type="email" id="email" name="email"><br>
+        <br>
+        <label for="address">Address: </label>
+        <textarea id="address" name="address" form="" rows="5" cols="50"></textarea><br>
+        <br>
+        <label for="id">ID Proof: </label>
+        <input type="file" id="id" name="id">
+    </fieldset>
+    <br>
+    <hr>
+    <br>
+    <fieldset>
+        <legend><b>Room Information</b></legend>
+        <ul>
+            <li>
+                <label for="date">Date of requirment: </label>
+                <input type="date" id="date" name="date" min="13-09-2023"><br>
+                <br>
+            </li>
+            <li>
+                <label for="days">Number of Days you want to stay: </label>
+                <select name="days" id="days">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                </select>
+            </li>
+            <br>
+            <br>
+            <li>
+                <span>Please select the prefernces you want in your room<br>(<b>IMPORTANT: </b>&ensp;price range may vary according to the services): </span><br>
+                <input type="checkbox" id="one" name="AC" value="AC">
+                <label for="one">AC</label><br>
+                <input type="checkbox" id="two" name="Non_AC" value="Non AC">
+                <label for="two">Non AC</label><br>
+                <input type="checkbox" id="three" name="beachview" value="Beach View">
+                <label for="three">Beach View</label><br>
+                <input type="checkbox" id="four" name="roomservices" value="Room Services">
+                <label for="four">Room Services</label><br>
+                <input type="checkbox" id="five" name="Gym" value="Gym">
+                <label for="five">Gym</label><br>
+                <input type="checkbox" id="six" name="swimmingpool" value="Swimming Pool">
+                <label for="six">Swimming Pool</label><br>
+                <input type="checkbox" id="seven" name="Bar" value="Bar and Alcohol">
+                <label for="seven">Bar and Alcohol</label><br>
+                <input type="checkbox" id="eight" name="Tour" value="Tour Guide">
+                <label for="eight">Tour Guide</label><br>
+            </li>
+            <br>
+            <br>
+            <li>
+                <label for="price">Price Range: </label><br>
+                <input type="checkbox" id="1" name="1" value="$50-$100">
+                <label for="1">$50-$100</label><br>
+                <input type="checkbox" id="2" name="2" value="$100-$150">
+                <label for="1">$100-$150</label><br>
+                <input type="checkbox" id="3" name="3" value="$150-$200">
+                <label for="1">$150-$200</label><br>
+                <input type="checkbox" id="4" name="4" value="$200-$250">
+                <label for="1">$200-$250</label><br>
+                <br>
+            </li>
+        </ul>
+    </fieldset>
+    <footer>
+        <marquee><i>Here at M's Hotel we try to provide you our best services, please fill the form carefully so that we can provide you with our best services</i></marquee>
+    </footer>
+</body>
+</html>
